@@ -5,7 +5,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 
 function Navigation() {
   return (
-    <Navbar key="lg" expand="lg" className="bg-body-tertiary mb-3">
+    <Navbar key="lg" expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">2024 ISS Journal</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
